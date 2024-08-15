@@ -58,7 +58,7 @@ app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
-const uri = process.env.DB_URL;
+const uri = "mongodb+srv://gunjalnavnath75:tbM7h4BYXRnxG9li@cluster0.yseve.mongodb.net/social";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
